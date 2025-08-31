@@ -7,7 +7,8 @@ int main() {
     srand (time(0));
 
     int r = rand();
-   int x,n,attempts,a;
+   int x,n,attempts;
+    int a = 1;
 
    while ( a == 1){
         int r = (rand() %100) + 1;
@@ -36,3 +37,4 @@ int main() {
 
     return 0;
 }
+
