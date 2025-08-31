@@ -30,8 +30,14 @@ int main() {
         while( n != 0){
         x = n%2;
         n = n/2;
-        printf("%d" , x);
+        y = y*10 + x;
          }
+        while( y != 0){
+             z = y%10;
+            y = y/10;
+            k = k*10 + z;
+         }
+         printf("%d" ,k);
          printf("\n");
          break;
     default :
@@ -41,3 +47,4 @@ int main() {
 
     return 0;
 }
+
